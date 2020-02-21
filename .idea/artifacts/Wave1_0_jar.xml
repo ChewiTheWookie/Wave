@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Wave1-0:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Wave1_0_jar</output-path>
+    <root id="archive" name="Wave.jar">
+      <element id="module-output" name="Wave" />
+    </root>
+  </artifact>
+</component>
