@@ -7,8 +7,8 @@ import java.util.Random;
 public class Game extends Canvas implements Runnable{
 
     public static final String TITLE = "Wave";
-    public static final int WIDTH = 1024;
-    public static final int HEIGHT = WIDTH / 12 * 9 + 3;
+    public static int WIDTH = 1024;
+    public static int HEIGHT = WIDTH / 12 * 9 + 3;
     public static final int BORDER = 16;
     public static int speed = 5;
     public static int scale = WIDTH/4;
@@ -60,6 +60,8 @@ public class Game extends Canvas implements Runnable{
 
         g.setColor(Color.black);
         g.fillRect(0, 0, WIDTH, HEIGHT);
+
+        g.fillRect(WIDTH, 0, 10, 10);
 
         Handler.render(g);
 
